@@ -6,7 +6,7 @@ import java.awt.Color;
 import java.util.ArrayList;
 
 public class resize {
-    public static ArrayList<BufferedImage> make11to128 (ArrayList<BufferedImage> icons11) throws IOException {
+    public static ArrayList<BufferedImage> make11to128 (ArrayList<BufferedImage> icons11){
         ArrayList<BufferedImage> icons128 = new ArrayList<>();
         for(int size = 0; size < icons11.size(); size++) {
             BufferedImage source = icons11.get(size);
